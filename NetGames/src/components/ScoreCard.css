@@ -1,0 +1,60 @@
+.scorecard-container {
+    background-color: #a6e6c7;
+    border-radius: 1rem; /* rounded-2xl */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* shadow-lg */
+    padding: 1.5rem; /* p-6 */
+    width: 100%;
+    text-align: center;
+  }
+  
+  .scorecard-username {
+    font-size: 1.5rem; /* text-2xl */
+    font-weight: 600;  /* font-semibold */
+    color: #2d3748;    /* text-gray-800 */
+  }
+  
+  .scorecard-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+  
+  .scorecard-score {
+    font-size: 1.125rem; /* text-lg */
+    color: #4a5568;      /* text-gray-600 */
+  }
+  
+  .scorecard-text {
+    color: #2d3748;      /* text-gray-500 */
+  }
+
+  .scorecard-comment-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  .scorecard-comment-input {
+    width: 95%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .scorecard-comment-button {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .scorecard-comment-button:hover {
+    background-color: #16a085;
+  }
